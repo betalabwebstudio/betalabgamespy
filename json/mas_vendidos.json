@@ -19,14 +19,14 @@
             "nombre": "Playstation 2",
             "descripcion": "Dos controles, 8 Juegos, Cable video-alimentación y memory card",
             "precio": 580000,
-            "imagen": "img/consolas/play2.jpeg"
+            "imagen": "img/consolas/play-2.png"
         },
         {
             "id": 4,
             "nombre": "Playstation 3",
             "descripcion": "Un control, 18 Juegos, 3 tiendas, Cable hdmi-alimentacion-cargador",
             "precio": 850000,
-            "imagen": "img/consolas/play3.jpeg"
+            "imagen": "img/consolas/play-3.png"
 
         },
         {
