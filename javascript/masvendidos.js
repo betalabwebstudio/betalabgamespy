@@ -6,7 +6,7 @@
 async function cargarProductos() {
     try {
         // 1. Hacer la petición al archivo JSON
-        const respuesta = await fetch('../json/mas_vendidos.json');
+        const respuesta = await fetch('./json/mas_vendidos.json');
         
         // 2. Verificar si la respuesta es correcta
         if (!respuesta.ok) {
