@@ -8,7 +8,7 @@ function agregarAlCarrito(id, nombre, precio) {
     };
     
     // Obtener carrito actual del localStorage
-    let carrito = JSON.parse(localStorage.getItem('/javascript/carrito')) || [];
+    let carrito = JSON.parse(localStorage.getItem('../javascript/carrito')) || [];
     
     // Verificar si el producto ya está en el carrito
     const productoExistente = carrito.find(item => item.id === id);
