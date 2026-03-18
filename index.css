@@ -1,0 +1,431 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+body{
+    background-color: #0A0F1C;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.caja-logo img{
+    width: 100px;
+    border-radius: 200px;
+}
+.navegador-principal a{
+    color: white;
+    text-decoration: none;
+    margin: 4px;
+}
+.navegador-principal a:hover{
+    color: #00CFFF;
+    transition: 0.8s;
+}
+/*Primera seccion*/
+
+.primera-seccion{
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    height: 20vh;
+    width: 100%;
+}
+.primera-seccion div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.primera-seccion h5{
+    color: #a2ccf8;
+    text-shadow: 0 0 10px #111212;
+}
+
+/*beneficios*/
+.beneficios {
+    display: flex;
+    flex-direction: column;flex-direction: column;
+    justify-content: space-around;  
+    align-items: center;
+    background-color: gray;
+    margin: 20px 0px;
+    padding: 15px;
+    gap: 20px;
+    flex-wrap: nowrap; 
+    overflow-x: auto;   
+}
+
+.beneficios h5{
+    text-align: center;
+    font-size: 20px;
+}
+
+.beneficios div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 100px;  
+    flex: 1;  
+}
+
+.beneficios p {
+    font-size: 14px;
+    margin: 8px 0 0 0;
+    color: white;
+    white-space: nowrap;  
+}
+
+.beneficios img {
+    width: 35px;
+    height: 35px;
+}
+
+ /* Carrusel */
+        .carrusel-wrapper {
+            position: relative;
+        }
+        
+        .carrusel-pista {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 20px 0;
+            scrollbar-width: thin;
+        }
+        
+        /* Tarjeta de producto */
+        .producto-card {
+            flex: 0 0 220px;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .producto-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .producto-imagen {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .producto-info {
+            padding: 15px;
+        }
+        
+        .producto-nombre {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .descripcion {
+        font-size: 14px;
+        color: #4613ec;
+        margin: 8px 0;
+        line-height: 1.4;
+        }
+        
+        .producto-precio {
+            font-size: 22px;
+            color: #2ecc71;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .btn-carrito {
+            width: 100%;
+            padding: 12px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .btn-carrito:hover {
+            background: #2980b9;
+        }
+        
+        
+        
+
+
+
+/* ==============================================
+   MEDIA QUERIES - HACER RESPONSIVE
+   ============================================== */
+
+/* Tablets (pantallas menores a 768px) */
+@media screen and (max-width: 768px) {
+    
+    /* Header */
+    header {
+        padding: 15px;
+    }
+    
+    .caja-logo img {
+        width: 80px;
+    }
+    
+    .navegador-principal a {
+        font-size: 14px;
+        margin: 3px;
+    }
+    
+    /* Primera sección */
+    .primera-seccion {
+        height: 15vh;
+    }
+    
+    .primera-seccion h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    /* BENEFICIOS - SIEMPRE HORIZONTAL SIN SCROLL */
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;  /* Se envuelven cuando no hay espacio */
+    }
+    
+    .beneficios div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100px;
+    }
+    
+    .beneficios p {
+        font-size: 11px;
+        margin: 5px 0 0 0;
+    }
+    
+    .beneficios img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    /* Carrusel - Productos más pequeños */
+    .producto-card {
+        flex: 0 0 180px;
+    }
+    
+    .producto-imagen {
+        height: 150px;
+    }
+    
+    .producto-nombre {
+        font-size: 16px;
+    }
+    
+    .descripcion {
+        font-size: 12px;
+    }
+    
+    .producto-precio {
+        font-size: 18px;
+    }
+    
+    .btn-carrito {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Celulares grandes (pantallas menores a 480px) */
+@media screen and (max-width: 480px) {
+    
+    /* Header */
+    header {
+        padding: 10px;
+    }
+    
+    .caja-logo img {
+        width: 60px;
+    }
+    
+    .navegador-principal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .navegador-principal a {
+        font-size: 12px;
+        margin: 2px 5px;
+    }
+    
+    /* Primera sección */
+    .primera-seccion {
+        height: 12vh;
+    }
+    
+    .primera-seccion h5 {
+        font-size: 12px;
+    }
+    
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        margin: 10px 0;
+        flex-wrap: wrap; 
+    }
+    
+    .beneficios div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 70px;
+    }
+    
+    .beneficios p {
+        font-size: 10px;
+        margin: 3px 0 0 0;
+    }
+    
+    .beneficios img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* Carrusel - Productos aún más pequeños */
+    .carrusel-pista {
+        gap: 10px;
+        padding: 10px 0;
+    }
+    
+    .producto-card {
+        flex: 0 0 140px;
+    }
+    
+    .producto-imagen {
+        height: 120px;
+    }
+    
+    .producto-info {
+        padding: 10px;
+    }
+    
+    .producto-nombre {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    
+    .descripcion {
+        font-size: 11px;
+        margin: 5px 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    .producto-precio {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .producto-vendidos {
+        font-size: 11px;
+    }
+    
+    .btn-carrito {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+/* Celulares muy pequeños (pantallas menores a 320px) */
+@media screen and (max-width: 320px) {
+    
+    .beneficios {
+        gap: 8px;
+    }
+    
+    .beneficios div {
+        min-width: 60px;
+    }
+    
+    .beneficios p {
+        font-size: 9px;
+    }
+    
+    .beneficios img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .producto-card {
+        flex: 0 0 120px;
+    }
+    
+    .producto-imagen {
+        height: 100px;
+    }
+    
+    .producto-nombre {
+        font-size: 12px;
+    }
+    
+    .descripcion {
+        font-size: 10px;
+        -webkit-line-clamp: 1;
+    }
+    
+    .producto-precio {
+        font-size: 14px;
+    }
+    
+    .btn-carrito {
+        padding: 6px;
+        font-size: 11px;
+    }
+}
+
+/* Ajustes para pantallas grandes (más de 1200px) */
+@media screen and (min-width: 1200px) {
+    
+    .carrusel-pista {
+        justify-content: center;
+    }
+    
+    .producto-card {
+        flex: 0 0 250px;
+    }
+}
+
+/* Mejoras para el scroll en móviles */
+@media (hover: none) and (pointer: coarse) {
+    .carrusel-pista {
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+    
+    .carrusel-pista::-webkit-scrollbar {
+        display: none;
+    }
+}
