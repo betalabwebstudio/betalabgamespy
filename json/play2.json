@@ -1,0 +1,76 @@
+[
+    {
+        "img": "../img/luo32gb.png",
+        "nombre": "Pendrive con 8 Juegos",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "100.000 Gs"
+
+        
+    },
+    {
+        "img": "../img/luo64gb.png",
+        "nombre": "Pendrive con 12 Juegos",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "120.000 Gs"
+    },
+    {
+        "img": "../img/luo64gb.png",
+        "nombre": "Pendrive con 15 Juegos",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "150.000 Gs"
+    },
+    {
+        "img": "../img/controlps2.jpg",
+        "nombre": "Control Play 2",
+        "consola": "PlayStation Store",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": ".",
+        "precio": "65.000 Gs"
+    },
+    {
+        "img": "../img/ps2hdmi.jpg",
+        "nombre": "Adaptador hdmi ps2",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Mejora la calidad de la ps2 en tv's planas",
+        "precio": "130.000 Gs"
+    }, 
+    {
+        "img": "../img/cableav.jpg",
+        "nombre": "Cable Av",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Cable video",
+        "precio": "45.000 Gs"
+    },
+    {
+        "img": "../img/cableen.jpg",
+        "nombre": "Cable power",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Da energía a la consola",
+        "precio": "45.000 Gs"
+    },
+    {
+        "img": "../img/memory card.jpg",
+        "nombre": "Memory card con OPL",
+        "consola": "PS2",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": "Para guardar tus partidas (incluye opl)",
+        "precio": "70.000 Gs"
+    }
+]

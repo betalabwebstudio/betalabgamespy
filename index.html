@@ -1,59 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Betalab Games Py</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <div class="caja-logo">
-            <img src="img/logo.webp" alt="logo">
-        </div>
-
-        <nav class="navegador-principal">
-            <a href="">Inicio</a>
-            <a href="">Consolas</a>
-            <a href="">Accesorios</a>
-            <a href="">Servicios</a>
-            <a href="">Contacto</a>
-        </nav>
+        <img class="logo" src="/img/logobetagames.jpeg" alt="">
     </header>
-    <main>
-        <section class="primera-seccion">
-            <div>
-                <h3>Redefine tu experiencia Gamer</h3>
-                <h5>Encontrá Juegos, accesorios y servicios para playstation en un solo lugar.</h5>
-            </div>
-        </section>
 
-        <section class="beneficios">
-            <h5>Beneficios</h5>
-
-            <div>
-            <img src="img/a-tiempo.png" alt="">
-            <p>Entregas en 24 Hs</p>
-            <img src="img/verificacion.png" alt="">
-            <p>Productos Verificados</p>
-            <img src="img/apoyo-tecnico.png" alt="">
-            <p>Soporte remoto</p>
-            </div>
-        </section>
-
-        <div class="carrusel-container">
-        <h2>Productos Más Vendidos</h2>
-        
-        <div class="carrusel-wrapper">
-            <div class="carrusel-pista" id="carruselPista">
-                <!-- Aquí se cargarán los productos -->
-                <div class="loading">Cargando productos...</div>
-            </div>
-        </div>
+    <nav>
+        <a href="">Playstation 2</a>
+        <a href="">Playstation 3</a>
+        <a href="">Playstation 4</a>
+        <a href="">Gift Cards</a>
+        <a href="">Contactos</a>
+        <a href="">Carrito</a>
+    </nav>
+    <div class="caja-buscador">
+         <input id="buscador"  type="text" placeholder="Ingrese aquí lo que quiera buscar...">
     </div>
-        
-    </main>
-</body>
+   
+    <main>
+        <div class="presentacion">
+            <img class="fondo" src="" alt="">
+            <h3>Encuentra los mejores juegos para PlayStation (PS2, PS3, PS4), PC, además de Gift Cards y códigos digitales. Todo en un solo lugar.</h3>
+        </div>
 
-<script src="javascript/masvendidos.js"></script>
+        <section class="seccion-videojuegos">
+            
+            <!--Play2-->
+            <h1 class="titulo">📀 PlayStation 2 📀 </h1>
+            <div class="productos-container">
+                <div id="productosGridPS2" class="productos-grid"></div>
+            </div>
+            <div class="cajabtnver">
+                <button class="btnvermas">Ver más sobre ps2</button>
+            </div>
+
+            <h1 class="titulo">🎮 PlayStation 3 🎮 </h1>
+            <div class="productos-container">
+                <div id="productosGridPS3" class="productos-grid"></div>
+            </div>
+            <div class="cajabtnver">
+                <button class="btnvermas">Ver más sobre ps3</button>
+            </div>
+            
+        
+        
+        
+        
+        </section>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+
+    <!--Script-->
+    <script src="js/ps2.js"></script>
+    <script src="js/ps3.js"></script>
+</body>
 </html>

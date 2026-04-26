@@ -1,0 +1,243 @@
+
+
+body{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    background-color: #0A1628;
+    object-fit: cover;
+}
+.logo{
+    width: 150px;
+    border-radius:100px;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.caja-buscador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+#buscador{
+    font-size: 15px;
+    width: 312px;
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+#buscador:hover{
+    background-color: #60A5FA;
+    transition: 0.80s;
+    transform: scale(1.1);
+    color: white;
+}
+
+#buscador:focus{
+    outline: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(6, 136, 223);
+    transform: scale(1.1);
+    transition: 0.80s;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#94A3B8;
+}
+.presentacion > * {
+    margin: 8px 0;  /* junta todo con solo 5px entre cada elemento */
+}
+
+
+/*Seccion*/
+.titulo{
+    color: white;
+    text-align: center;
+    background-color: 	#0f2750;
+    padding: 10px;
+}
+
+/* ========== CONTENEDOR PRINCIPAL ========== */
+.productos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ========== TÍTULO ========== */
+.productos-titulo {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* ========== CONTADOR ========== */
+.productos-contador {
+    text-align: right;
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* ========== GRID DE PRODUCTOS ========== */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* ========== TARJETA DE PRODUCTO ========== */
+.producto-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* ========== IMAGEN ========== */
+.producto-imagen {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background: #f0f0f0;
+}
+
+/* ========== INFORMACIÓN ========== */
+.producto-info {
+    padding: 15px;
+}
+
+.producto-nombre {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.producto-consola {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.producto-descripcion {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.aggcarrito{
+    margin-top: 10px;
+    border: #0f2750 solid;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #0f2750;
+    color: white;
+}
+
+.aggcarrito:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: white;
+    background-color: #27ae60;
+    border:  #27ae60 solid;
+}
+
+.cajabtnver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.btnvermas{
+    font-size: 20px;
+    margin-top: 10px;
+    border: #0f2750 solid;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #0f2750;
+    color: white;
+}
+
+.btnvermas:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: white;
+    background-color: #27ae60;
+    border:  #27ae60 solid;
+}
+
+/* ========== MENSAJE SIN RESULTADOS ========== */
+.sin-resultados {
+    text-align: center;
+    padding: 50px;
+    color: #999;
+    font-size: 18px;
+}
+
+/* ========== RESPONSIVE (celulares) ========== */
+@media (max-width: 768px) {
+    .productos-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+    }
+    
+    .producto-imagen {
+        height: 180px;
+    }
+}
