@@ -1,6 +1,6 @@
 [
     {
-        "img": "../img/luo32gb.png",
+        "img": "/img/luo32gb.png",
         "nombre": "Pendrive con 8 Juegos",
         "consola": "PS2",
         "envios": "📦 Envíos a todo el país",
@@ -11,7 +11,7 @@
         
     },
     {
-        "img": "../img/luo64gb.png",
+        "img": "/img/luo64gb.png",
         "nombre": "Pendrive con 12 Juegos",
         "consola": "PS2",
         "envios": "📦 Envíos a todo el país",
@@ -20,7 +20,7 @@
         "precio": "120.000 Gs"
     },
     {
-        "img": "../img/luo64gb.png",
+        "img": "/img/luo64gb.png",
         "nombre": "Pendrive con 15 Juegos",
         "consola": "PS2",
         "envios": "📦 Envíos a todo el país",
@@ -29,7 +29,7 @@
         "precio": "150.000 Gs"
     },
     {
-        "img": "../img/controlps2.jpg",
+        "img": "/img/controlps2.jpg",
         "nombre": "Control Play 2",
         "consola": "PlayStation Store",
         "envios": "📦 Envíos a todo el país",
@@ -38,7 +38,7 @@
         "precio": "65.000 Gs"
     },
     {
-        "img": "../img/ps2hdmi.jpg",
+        "img": "/img/ps2hdmi.jpg",
         "nombre": "Adaptador hdmi ps2",
         "consola": "PS2",
         "envios": "📦 Envíos a todo el país",
@@ -47,7 +47,7 @@
         "precio": "130.000 Gs"
     }, 
     {
-        "img": "../img/cableav.jpg",
+        "img": "/img/cableav.jpg",
         "nombre": "Cable Av",
         "consola": "PS2",
         "envios": "📦 Envíos a todo el país",
@@ -56,7 +56,7 @@
         "precio": "45.000 Gs"
     },
     {
-        "img": "../img/cableen.jpg",
+        "img": "/img/cableen.jpg",
         "nombre": "Cable power",
         "consola": "PS2",
         "envios": "📦 Envíos a todo el país",
@@ -65,7 +65,7 @@
         "precio": "45.000 Gs"
     },
     {
-        "img": "../img/memory card.jpg",
+        "img": "/img/memory card.jpg",
         "nombre": "Memory card con OPL",
         "consola": "PS2",
         "envios": "📦 Envíos a todo el país",
