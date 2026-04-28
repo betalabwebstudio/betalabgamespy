@@ -1,6 +1,6 @@
 [
     {
-        "img": "img/pack3.jpg",
+        "img": "img/1.png",
         "nombre": "Pack 3 juegos",
         "consola": "PS3",
         "envios": "📍 Traer consola al local",
@@ -9,7 +9,7 @@
         "precio": "100.000 Gs"
     },
     {
-        "img": "img/pack4.jpg",
+        "img": "img/2.png",
         "nombre": "Pack 4 juegos",
         "consola": "PS3",
         "envios": "📍 Traer consola al local",
@@ -18,7 +18,7 @@
         "precio": "130.000 Gs"
     },
     {
-        "img": "img/pack6.jpg",
+        "img": "img/3.png",
         "nombre": "Pack 6 juegos",
         "consola": "PS3",
         "envios": "📍 Traer consola al local",
@@ -27,7 +27,7 @@
         "precio": "200.000 Gs"
     },
     {
-        "img": "img/pack8.jpg",
+        "img": "img/4.png",
         "nombre": "Pack 8 juegos",
         "consola": "PS3",
         "envios": "📍 Traer consola al local",
@@ -36,7 +36,7 @@
         "precio": "290.000 Gs"
     },
     {
-        "img": "img/pack10.jpg",
+        "img": "img/5.png",
         "nombre": "Pack 10 juegos",
         "consola": "PS3",
         "envios": "📍 Traer consola al local",

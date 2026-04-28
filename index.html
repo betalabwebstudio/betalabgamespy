@@ -12,46 +12,60 @@
     </header>
 
     <nav>
-        <a href="">Playstation 2</a>
-        <a href="">Playstation 3</a>
-        <a href="">Playstation 4</a>
-        <a href="">Gift Cards</a>
-        <a href="">Contactos</a>
-        <a href="">Carrito</a>
-    </nav>
+    <div class="hamburguesa">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="nav-menu">
+        <a onclick="ps2()">Playstation 2</a>
+        <a onclick="ps3()">Playstation 3</a>
+        <a onclick="pc()">Juegos PC</a>
+        <a onclick="giftcard()">Gift Cards</a>
+        <a onclick="contacto()">Contactos</a>
+        <a onclick="carrito()">Carrito</a>
+    </div>
+</nav>
     <div class="caja-buscador">
          <input id="buscador"  type="text" placeholder="Ingrese aquí lo que quiera buscar...">
     </div>
    
     <main>
         <div class="presentacion">
-            <img class="fondo" src="" alt="">
-            <h3>Encuentra los mejores juegos para PlayStation (PS2, PS3, PS4), PC, además de Gift Cards y códigos digitales. Todo en un solo lugar.</h3>
+            <h3 class="titprese">Encuentra los mejores juegos para PlayStation (PS2, PS3, PS4), PC, además de Gift Cards y códigos digitales. Todo en un solo lugar.</h3>
         </div>
 
         <section class="seccion-videojuegos">
             
             <!--Play2-->
-            <h1 class="titulo">📀 PlayStation 2 📀 </h1>
+            <h1 class="titulo">📀PlayStation 2📀</h1>
             <div class="productos-container">
                 <div id="productosGridPS2" class="productos-grid"></div>
             </div>
             <div class="cajabtnver">
-                <button class="btnvermas">Ver más sobre ps2</button>
+                <button onclick="ps2()" class="btnvermas">Ver más sobre ps2</button>
             </div>
 
-            <h1 class="titulo">🎮 PlayStation 3 🎮 </h1>
+            <!--PS3-->
+            <h1 class="titulo">🎮PlayStation 3🎮</h1>
             <div class="productos-container">
                 <div id="productosGridPS3" class="productos-grid"></div>
             </div>
             <div class="cajabtnver">
-                <button class="btnvermas">Ver más sobre ps3</button>
+                <button onclick="ps3()" class="btnvermas">Ver más sobre ps3</button>
             </div>
+
+            <!--PC-->
+            <h1 class="titulo">💻PC (Juegos digitales)💻</h1>
+            <div class="productos-container">
+                <div id="productosGridPC" class="productos-grid"></div>
+            </div>
+            <div class="cajabtnver">
+                <button onclick="pc()" class="btnvermas">Ver más sobre ps3</button>
+            </div>
+
             
-        
-        
-        
-        
+            
         </section>
 
 
@@ -61,11 +75,11 @@
 
     </footer>
 
-
-
-
     <!--Script-->
     <script src="js/ps2.js"></script>
     <script src="js/ps3.js"></script>
+    <script src="js/pc.js"></script>
+    <script src="js/direccion.js"></script>
+    <script src="js/btnhambur.js"></script>
 </body>
 </html>
