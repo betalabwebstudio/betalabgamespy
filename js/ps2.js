@@ -53,12 +53,12 @@ function mostrarProductos() {
         const card = document.createElement('div');
         card.className = 'producto-card';
         
-        // Manejar imagen si no existe
-        const imgSrc = producto.img || 'https://via.placeholder.com/300x200?text=Sin+imagen';
+        // Manejar imagen si no existe - CORREGIDO
+        const imgSrc = producto.img || 'https://placehold.co/300x200?text=Sin+imagen';
         
         card.innerHTML = `
             <img class="producto-imagen" src="${imgSrc}" alt="${producto.nombre}"
-                 onerror="this.src='https://via.placeholder.com/300x200?text=Imagen+no+disponible'">
+                 onerror="this.src='https://placehold.co/300x200?text=Imagen+no+disponible'">
             <div class="producto-info">
                 <div class="producto-nombre">${producto.nombre}</div>
                 <span class="producto-consola">🎮 ${producto.consola || 'Sin consola'}</span>
@@ -67,7 +67,6 @@ function mostrarProductos() {
                 <div class="producto-descripcion">${producto.seleccion || 'Sin descripción'}</div>
                 <div class="producto-precio">${producto.precio || 'Consultar'}</div>
                 <button onclick="agregarCarrito()" class="aggcarrito">Agregar al carrito</button>
-
             </div>
         `;
         
