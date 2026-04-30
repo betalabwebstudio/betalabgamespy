@@ -1,8 +1,8 @@
 function ps2(){
-     window.location.href = 'ps2.html';
+     window.location.href = 'PS2.html';
 }
 function ps3(){
-    window.location.href = 'ps3.html';
+    window.location.href = 'PS3.html';
 }
 function inicio(){
     window.location.href = 'index.html';
