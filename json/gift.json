@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Gift Card 10 Dólares",
+        "consola": "PSN",
+        "precio": "68.550 GS",
+        "img": "https://i.pinimg.com/736x/4c/31/f8/4c31f8781ca2857e4695d613f675cf47.jpg",
+        "envios": "Estados Unidos"
+    },
+    {
+        "nombre": " Gift Card 50 Dólares",
+        "consola": "PSN",
+        "precio": "302.550 Gs",
+        "img": "https://i.pinimg.com/736x/4c/31/f8/4c31f8781ca2857e4695d613f675cf47.jpg",
+        "envios": "Estados Unidos"
+    },
+    {
+        "nombre": "Gift Card 5 Dólares",
+        "consola": "PSN",
+        "precio": "38.620 Gs",
+        "img": "https://i.pinimg.com/736x/4c/31/f8/4c31f8781ca2857e4695d613f675cf47.jpg",
+        "envios": "Estados Unidos"
+    },
+    {
+        "nombre": "Gift Card 25 Dólares",
+        "consola": "PSN",
+        "precio": "148.550 Gs",
+        "img": "https://i.pinimg.com/736x/4c/31/f8/4c31f8781ca2857e4695d613f675cf47.jpg",
+        "envios": "Estados Unidos"
+    },
+    {
+        "nombre": "Game Pass Xbox 1 Mes",
+        "consola": "XBOX/PC",
+        "precio": "120.520 Gs",
+        "img": "https://i.pinimg.com/1200x/c4/a9/71/c4a97183bbcd17c27ed5398b5f4b64df.jpg",
+        "envios": "Global"
+    },
+    {
+        "nombre": "Xbox Game Pass Para pc 1 Mes",
+        "consola": "XBOX PC",
+        "precio": "82.560 Gs",
+        "img": "https://i.pinimg.com/736x/07/53/52/075352de64f90a1bdca91e1b1f60db3b.jpg",
+        "envios": "Global"
+    },
+
+    {
+        "nombre": "Game Pass",
+        "consola": "XBOX",
+        "precio": "71.590 Gs",
+        "img": "https://i.pinimg.com/736x/07/53/52/075352de64f90a1bdca91e1b1f60db3b.jpg",
+        "envios": "Latinoamérica"
+    }
+]
