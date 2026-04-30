@@ -1,0 +1,95 @@
+[
+    {
+        "img": "img/1.png",
+        "nombre": "Pack 3 juegos",
+        "consola": "PS3",
+        "envios": "📍 Traer consola al local",
+        "garantia": "✅ Juegos verificados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "100.000 Gs"
+    },
+    {
+        "img": "img/2.png",
+        "nombre": "Pack 4 juegos",
+        "consola": "PS3",
+        "envios": "📍 Traer consola al local",
+        "garantia": "✅ Juegos verificados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "130.000 Gs"
+    },
+    {
+        "img": "img/3.png",
+        "nombre": "Pack 6 juegos",
+        "consola": "PS3",
+        "envios": "📍 Traer consola al local",
+        "garantia": "✅ Juegos verificados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "200.000 Gs"
+    },
+    {
+        "img": "img/4.png",
+        "nombre": "Pack 8 juegos",
+        "consola": "PS3",
+        "envios": "📍 Traer consola al local",
+        "garantia": "✅ Juegos verificados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "290.000 Gs"
+    },
+    {
+        "img": "img/5.png",
+        "nombre": "Pack 10 juegos",
+        "consola": "PS3",
+        "envios": "📍 Traer consola al local",
+        "garantia": "✅ Juegos verificados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "350.000 Gs"
+    },
+    {
+        "img": "img/cps3.jpg",
+        "nombre": "Control Play 3",
+        "consola": "PS3",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Producto verificado",
+        "seleccion": ".",
+        "precio": "100.000 Gs"
+    },
+    {
+        "img": "img/luo32gb.png",
+        "nombre": "Pendrive con 3 Juegos",
+        "consola": "PS3",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "100.000 Gs"
+
+        
+    },
+    {
+        "img": "img/luo64gb.png",
+        "nombre": "Pendrive con 6 Juegos",
+        "consola": "PS3",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "160.000 Gs"
+    },
+    {
+        "img": "img/discoduro.jpg",
+        "nombre": "Disco duro externo con 20-25 juegos",
+        "consola": "PS3",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "450.000 Gs"
+    },
+    {
+        "img": "img/discoduro.jpg",
+        "nombre": "Disco duro externo con 40-45 juegos",
+        "consola": "PS3",
+        "envios": "📦 Envíos a todo el país",
+        "garantia": "✅ Juegos 100% funcionales y probados",
+        "seleccion": "🎮 Juegos a elección del cliente",
+        "precio": "600.000 Gs"
+    }
+
+]

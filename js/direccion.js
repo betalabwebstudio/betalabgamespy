@@ -19,3 +19,6 @@ function giftcard(){
 function pc(){
     window.location.href = 'pc.html';
 }
+function politica(){
+    window.location.href = 'politicadeprivacidad.html';
+}

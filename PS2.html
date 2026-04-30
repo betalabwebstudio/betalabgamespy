@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Play 2</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
         <span></span>
     </div>
     <div class="nav-menu">
-        
+        <a onclick="inicio()">Inicio</a>
         <a onclick="ps2()">Playstation 2</a>
         <a onclick="ps3()">Playstation 3</a>
         <a onclick="pc()">Juegos PC</a>
@@ -32,48 +32,14 @@
     </div>
    
     <main>
-        <div class="presentacion">
-            <h3 class="titprese">Encuentra los mejores juegos para PlayStation (PS2, PS3, PS4), PC, además de Gift Cards y códigos digitales. Todo en un solo lugar.</h3>
-        </div>
 
         <section class="seccion-videojuegos">
             
-            <!--Play2-->
+            <!--PS2-->
             <h1 class="titulo">📀PlayStation 2📀</h1>
             <div class="productos-container">
-                <div id="productosGridPS2" class="productos-grid"></div>
+                <div id="productosGridPS2PAG" class="productos-grid"></div>
             </div>
-            <div class="cajabtnver">
-                <button onclick="ps2()" class="btnvermas">Ver más sobre ps2</button>
-            </div>
-
-            <!--PS3-->
-            <h1 class="titulo">🎮PlayStation 3🎮</h1>
-            <div class="productos-container">
-                <div id="productosGridPS3" class="productos-grid"></div>
-            </div>
-            <div class="cajabtnver">
-                <button onclick="ps3()" class="btnvermas">Ver más sobre ps3</button>
-            </div>
-
-            <!--PC-->
-            <h1 class="titulo">💻PC (Juegos digitales)💻</h1>
-            <div class="productos-container">
-                <div id="productosGridPC" class="productos-grid"></div>
-            </div>
-            <div class="cajabtnver">
-                <button onclick="pc()" class="btnvermas">Ver más sobre ps3</button>
-            </div>
-
-            <!--GIFT CARD-->
-            <h1 class="titulo">🎁Gift Cards🎁</h1>
-            <div class="productos-container">
-                <div id="productosGridgift" class="productos-grid"></div>
-            </div>
-            <div class="cajabtnver">
-                <button onclick="giftcard()" class="btnvermas">Ver más sobre Gift Cards</button>
-            </div>
-            
             
         </section>
 
@@ -84,6 +50,7 @@
     <footer>
     <div class="footer-contenido">
         <div class="footer-links">
+            <a onclick="inicio()">Inicio</a>
             <a onclick="ps2()">Playstation 2</a>
         <a onclick="ps3()">Playstation 3</a>
         <a onclick="pc()">Juegos PC</a>
@@ -103,10 +70,7 @@
 
 
     <!--Script-->
-    <script src="js/ps2.js"></script>
-    <script src="js/ps3.js"></script>
-    <script src="js/pc.js"></script>
-    <script src="js/gift.js"></script>
+    <script src="js/ps2pag.js"></script>
     <script src="js/direccion.js"></script>
     <script src="js/btnhambur.js"></script>
 </body>

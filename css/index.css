@@ -555,3 +555,63 @@ input, button, a, div {
 .hamburguesa.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
+
+
+
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #0f2750;
+    color: #94A3B8;
+    padding: 40px 20px 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #94A3B8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #60A5FA;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #64748B;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 15px 15px;
+    }
+    
+    .footer-links {
+        gap: 20px;
+    }
+    
+    .footer-links a {
+        font-size: 12px;
+    }
+}

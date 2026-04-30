@@ -1,0 +1,116 @@
+[
+    {
+        "nombre": "Assassin's Creed Valhalla",
+        "consola": "PC",
+        "precio": "50.550 GS",
+        "img": "https://i.pinimg.com/736x/da/fc/9a/dafc9a465f5bdf015b40579f953241b3.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Dayz",
+        "consola": "PC",
+        "precio": "125.250 Gs",
+        "img": "https://i.pinimg.com/736x/a7/fa/e0/a7fae0f3fd384ec7221f9c453674d110.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Red Dead Redemption 2",
+        "consola": "PC",
+        "precio": "100.000 Gs",
+        "img": "https://i.pinimg.com/736x/85/87/5f/85875f49d60729cf09d4ba4a2e405a9d.jpg",
+        "envios": "🔑 Rocstar Game Launch"
+    },
+    {
+        "nombre": "Mafia Trylogy",
+        "consola": "PC",
+        "precio": "48.500 Gs",
+        "img": "https://i.pinimg.com/736x/55/32/a9/5532a9dd803fadfca39434da5529cf69.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Batman Arkham Collection",
+        "consola": "PC",
+        "precio": "45.450 Gs",
+        "img": "https://i.pinimg.com/736x/01/05/5e/01055e1c5f0e1e07d30a222549c2115e.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Resident Evil 4",
+        "consola": "PC",
+        "precio": "85.850 Gs",
+        "img": "https://i.pinimg.com/736x/73/79/a8/7379a8598e87966329b09ff921b3bf99.jpg",
+        "envios": "🔑 Código de steam"
+    },
+
+    {
+        "nombre": "Detroit",
+        "consola": "PC",
+        "precio": "45.550 Gs",
+        "img": "https://i.pinimg.com/736x/aa/98/da/aa98da01f08ba070c8d446a9d0d3f4cf.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "God of War",
+        "consola": "PC",
+        "precio": "110.850 Gs",
+        "img": "https://i.pinimg.com/736x/86/01/3d/86013d73534ca07e46fd1735fec59c84.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Resident evil Raccon City Edition",
+        "consola": "PC",
+        "precio": "74.550 Gs",
+        "img": "https://i.pinimg.com/736x/68/a3/7d/68a37db2d6936d128e5b9fcfa37fce7a.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "NBA 2k26",
+        "consola": "PC",
+        "precio": "120.850 Gs",
+        "img": "https://i.pinimg.com/736x/77/56/e9/7756e9866566e5df85d9191f26f935df.jpg",
+        "envios": "🔑 Código de steam"
+    },
+
+    {
+        "nombre": "Far Cry Primal",
+        "consola": "PC",
+        "precio": "40.450 Gs",
+        "img": "https://i.pinimg.com/736x/4c/e2/d4/4ce2d41964650f643d5fcb19b5c1fe76.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Days Gone",
+        "consola": "PC",
+        "precio": "105.500 Gs",
+        "img": "https://i.pinimg.com/736x/ca/7b/7f/ca7b7f8513d91e071a897c978f1797b7.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Mortal Kombat XL",
+        "consola": "PC",
+        "precio": "35.550 Gs",
+        "img": "https://i.pinimg.com/736x/14/dc/c7/14dcc748cf6c69b2287e27b091920504.jpg",
+        "envios": "🔑 Código de steam"
+    },
+    {
+        "nombre": "Resident Evil Requem",
+        "consola": "PC",
+        "precio": "320.850 Gs",
+        "img": "https://i.pinimg.com/736x/93/8e/65/938e659acba8d26cb541dcd2a464fe2d.jpg",
+        "envios": "🔑 Código de steam"
+    },
+     {
+        "nombre": "Ghost of Tsushima",
+        "consola": "PC",
+        "precio": "175.850 Gs",
+        "img": "https://i.pinimg.com/736x/d9/3f/87/d93f878ff0d50cd80ebc120a3b609321.jpg",
+        "envios": "🔑 Código de steam"
+    },
+     {
+        "nombre": "Marvel's Spider Man 2",
+        "consola": "PC",
+        "precio": "238.550 Gs",
+        "img": "https://i.pinimg.com/736x/4b/94/d5/4b94d5168bb2ab4311076369169cc441.jpg",
+        "envios": "🔑 Código de steam"
+    }
+]
