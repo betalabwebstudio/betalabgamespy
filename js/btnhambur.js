@@ -5,6 +5,7 @@ const navMenu = document.querySelector('.nav-menu');
 if (hamburguesa && navMenu) {
     hamburguesa.addEventListener('click', () => {
         navMenu.classList.toggle('active');
+        hamburguesa.classList.toggle('active'); // 👈 LÍNEA AGREGADA para la animación
     });
     
     // Cerrar menú al hacer clic en un enlace
@@ -12,6 +13,7 @@ if (hamburguesa && navMenu) {
     enlaces.forEach(enlace => {
         enlace.addEventListener('click', () => {
             navMenu.classList.remove('active');
+            hamburguesa.classList.remove('active'); // 👈 LÍNEA AGREGADA para quitar la animación
         });
     });
 }
@@ -20,5 +22,6 @@ if (hamburguesa && navMenu) {
 window.addEventListener('resize', () => {
     if (window.innerWidth > 768 && navMenu) {
         navMenu.classList.remove('active');
+        hamburguesa.classList.remove('active'); // 👈 LÍNEA AGREGADA
     }
 });
