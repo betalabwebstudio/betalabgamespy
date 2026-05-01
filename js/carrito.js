@@ -32,7 +32,7 @@ function formatearPrecio(precio) {
         currency: 'PYG',
         minimumFractionDigits: 0,
         maximumFractionDigits: 0
-    }).format(precio).replace('PYG', 'G/S');
+    }).format(precio).replace('PYG', 'Gs');
 }
 
 // ============================================
