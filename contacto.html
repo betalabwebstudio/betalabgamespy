@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Contactos - Tienda</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, 'Segoe UI', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(145deg, #f5f7fc 0%, #eef2f5 100%);
+            min-height: 100vh;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Contenedor principal */
+        .contactos-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .contactos-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .contactos-header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #1a2a4f, #2c5282);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .contactos-header p {
+            color: #4a5568;
+            font-size: 1.1rem;
+        }
+
+        /* Grid de contactos */
+        .contactos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Tarjeta de contacto */
+        .contacto-card {
+            background: white;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .contacto-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 35px -10px rgba(0,0,0,0.2);
+        }
+
+        /* Iconos */
+        .contacto-icono {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 2.5rem;
+        }
+
+        .contacto-nombre {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .contacto-usuario {
+            color: #4a5568;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .contacto-boton {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 0.5rem;
+        }
+
+        /* Colores específicos */
+        .instagram {
+            background: linear-gradient(135deg, #833AB4, #E4405F, #F56040);
+        }
+        .instagram .contacto-icono {
+            background: linear-gradient(135deg, #833AB4, #E4405F);
+            color: white;
+        }
+        .instagram .contacto-boton {
+            background: #E4405F;
+            color: white;
+        }
+        .instagram .contacto-boton:hover {
+            background: #c1354a;
+            transform: scale(1.05);
+        }
+
+        .facebook {
+            background: linear-gradient(135deg, #1877F2, #0d5ab9);
+        }
+        .facebook .contacto-icono {
+            background: #1877F2;
+            color: white;
+        }
+        .facebook .contacto-boton {
+            background: #1877F2;
+            color: white;
+        }
+        .facebook .contacto-boton:hover {
+            background: #0d5ab9;
+            transform: scale(1.05);
+        }
+
+        .tiktok {
+            background: linear-gradient(135deg, #010101, #20D5EC);
+        }
+        .tiktok .contacto-icono {
+            background: #010101;
+            color: #20D5EC;
+        }
+        .tiktok .contacto-boton {
+            background: #010101;
+            color: white;
+        }
+        .tiktok .contacto-boton:hover {
+            background: #20D5EC;
+            color: #010101;
+            transform: scale(1.05);
+        }
+
+        .whatsapp {
+            background: linear-gradient(135deg, #25D366, #128C7E);
+        }
+        .whatsapp .contacto-icono {
+            background: #25D366;
+            color: white;
+        }
+        .whatsapp .contacto-boton {
+            background: #25D366;
+            color: white;
+        }
+        .whatsapp .contacto-boton:hover {
+            background: #128C7E;
+            transform: scale(1.05);
+        }
+
+        /* Mapa o info extra */
+        .info-extra {
+            background: white;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+        }
+
+        .info-extra h3 {
+            color: #1a2a4f;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .info-extra p {
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+        }
+
+        .horario {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #e2e8f0;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        /* Botón volver */
+        .btn-volver {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #1a2a4f;
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            margin-top: 2rem;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .btn-volver:hover {
+            background: #2c5282;
+            transform: translateX(-5px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .contactos-header h1 {
+                font-size: 2rem;
+            }
+            
+            .contactos-header p {
+                font-size: 1rem;
+            }
+            
+            .contacto-card {
+                padding: 1.5rem;
+            }
+            
+            .contacto-icono {
+                width: 60px;
+                height: 60px;
+                font-size: 2rem;
+            }
+            
+            .contacto-nombre {
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contactos-grid {
+                gap: 1rem;
+            }
+            
+            .contacto-card {
+                padding: 1.2rem;
+            }
+            
+            .contacto-icono {
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contactos-container">
+        <!-- Header -->
+        <div class="contactos-header">
+            <h1>Contactos</h1>
+            <p>Seguinos en nuestras redes sociales o escribinos directamente</p>
+        </div>
+
+        <!-- Grid de redes sociales -->
+        <div class="contactos-grid">
+            <!-- Instagram -->
+            <div class="contacto-card instagram" onclick="window.open('https://instagram.com/tuusuario', '_blank')">
+                <div class="contacto-icono"><img src="img/instagram.png" style="width: 45px;" alt=""></div>
+                <div class="contacto-nombre">Instagram</div>
+                <div class="contacto-usuario">@betalab.games.py</div>
+                <a href="https://instagram.com/betalab.games.py" class="contacto-boton" target="_blank">Seguir →</a>
+            </div>
+
+            <!-- Facebook -->
+            <div class="contacto-card facebook" onclick="window.open('https://facebook.com/tuusuario', '_blank')">
+                <div class="contacto-icono"><img src="img/facebook.png" style="width: 45px;" alt=""></div>
+                <div class="contacto-nombre">Facebook</div>
+                <div class="contacto-usuario">/betalab_games_py</div>
+                <a href="https://facebook.com/betalab_games_py" class="contacto-boton" target="_blank">Seguir →</a>
+            </div>
+
+            <!-- TikTok -->
+            <div class="contacto-card tiktok" onclick="window.open('https://tiktok.com/@tuusuario', '_blank')">
+                <div class="contacto-icono"><img src="img/tik-tok.png" style="width: 45px;" alt=""></div>
+                <div class="contacto-nombre">TikTok</div>
+                <div class="contacto-usuario">@betalab_games_py</div>
+                <a href="https://tiktok.com/@betalab_games_py" class="contacto-boton" target="_blank">Seguir →</a>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="contacto-card whatsapp" onclick="window.open('https://wa.me/595993574822', '_blank')">
+                <div class="contacto-icono">💬</div>
+                <div class="contacto-nombre">WhatsApp</div>
+                <div class="contacto-usuario">+595 993 574 822</div>
+                <a href="https://wa.me/595993574822" class="contacto-boton" target="_blank">Escribir →</a>
+            </div>
+        </div>
+
+        <!-- Info extra -->
+        <div class="info-extra">
+            <h3>🕐 Horarios de atención</h3>
+            <p>Lunes a Viernes: 9:00 - 20:00</p>
+            <p>Sábados: 10:00 - 13:00</p>
+            <p>Domingos: Cerrado</p>
+            <div class="horario">
+                ⏰ Respuesta en menos de 1 hora
+            </div>
+        </div>
+
+        <!-- Botón volver -->
+        <div style="text-align: center;">
+            <a href="index.html" class="btn-volver">← Volver a la tienda</a>
+        </div>
+    </div>
+
+    <script>
+        // Cambiar los usuarios por los tuyos reales
+        // Instagram: cambia "tuusuario" por tu usuario real
+        // Facebook: cambia "tuusuario" por tu usuario real
+        // TikTok: cambia "tuusuario" por tu usuario real
+        // WhatsApp: cambia "595993574822" por tu número real
+        
+        // Si quieres actualizar los enlaces, edita las líneas de window.open y href
+        console.log('📱 Página de contactos lista');
+    </script>
+</body>
+</html>

@@ -10,9 +10,6 @@ function inicio(){
 function contacto(){
     window.location.href = 'contacto.html';
 }
-function carrito(){
-    window.location.href = 'carrito.html';
-}
 function giftcard(){
     window.location.href = 'gift.html';
 }
