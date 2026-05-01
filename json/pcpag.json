@@ -1,5 +1,6 @@
 [
     {
+        "id": "pc-01",
         "nombre": "Assassin's Creed Valhalla",
         "consola": "PC",
         "precio": "50.550 GS",
@@ -7,6 +8,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-02",
         "nombre": "Dayz",
         "consola": "PC",
         "precio": "125.250 Gs",
@@ -14,6 +16,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-03",
         "nombre": "Red Dead Redemption 2",
         "consola": "PC",
         "precio": "100.000 Gs",
@@ -21,6 +24,7 @@
         "envios": "🔑 Rocstar Game Launch"
     },
     {
+        "id": "pc-04",
         "nombre": "Mafia Trylogy",
         "consola": "PC",
         "precio": "48.500 Gs",
@@ -28,6 +32,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-05",
         "nombre": "Batman Arkham Collection",
         "consola": "PC",
         "precio": "45.450 Gs",
@@ -35,6 +40,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-06",
         "nombre": "Resident Evil 4",
         "consola": "PC",
         "precio": "85.850 Gs",
@@ -43,6 +49,7 @@
     },
 
     {
+        "id": "pc-07",
         "nombre": "Detroit",
         "consola": "PC",
         "precio": "45.550 Gs",
@@ -50,6 +57,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-08",
         "nombre": "God of War",
         "consola": "PC",
         "precio": "110.850 Gs",
@@ -57,6 +65,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-09",
         "nombre": "Resident evil Raccon City Edition",
         "consola": "PC",
         "precio": "74.550 Gs",
@@ -64,6 +73,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-10",
         "nombre": "NBA 2k26",
         "consola": "PC",
         "precio": "120.850 Gs",
@@ -72,6 +82,7 @@
     },
 
     {
+        "id": "pc-11",
         "nombre": "Far Cry Primal",
         "consola": "PC",
         "precio": "40.450 Gs",
@@ -79,6 +90,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-12",
         "nombre": "Days Gone",
         "consola": "PC",
         "precio": "105.500 Gs",
@@ -86,6 +98,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-13",
         "nombre": "Mortal Kombat XL",
         "consola": "PC",
         "precio": "35.550 Gs",
@@ -93,6 +106,7 @@
         "envios": "🔑 Código de steam"
     },
     {
+        "id": "pc-14",
         "nombre": "Resident Evil Requem",
         "consola": "PC",
         "precio": "320.850 Gs",
@@ -100,6 +114,7 @@
         "envios": "🔑 Código de steam"
     },
      {
+        "id": "pc-15",
         "nombre": "Ghost of Tsushima",
         "consola": "PC",
         "precio": "175.850 Gs",
@@ -107,6 +122,7 @@
         "envios": "🔑 Código de steam"
     },
      {
+        "id": "pc-16",
         "nombre": "Marvel's Spider Man 2",
         "consola": "PC",
         "precio": "238.550 Gs",
